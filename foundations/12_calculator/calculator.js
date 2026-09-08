@@ -19,11 +19,17 @@ const sum = function(arr) {
 	
 };
 
-const multiply = function() {
+const multiply = function(arr2) {
+
+  let product = arr2.reduce((num1, num2) => num1 * num2 , 1);
+  return product;
 
 };
 
-const power = function() {
+const power = function(a, b) {
+
+  let totalPower = a ** b;
+  return totalPower;
 	
 };
 
