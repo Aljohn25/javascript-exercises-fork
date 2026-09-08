@@ -33,8 +33,14 @@ const power = function(a, b) {
 	
 };
 
-const factorial = function() {
-	
+const factorial = function(int) {
+
+  let factored = 1;
+  for (let i = 1; i <= int; i++) {
+    factored *= i;
+  }
+return factored;
+
 };
 
 // Do not edit below this line
