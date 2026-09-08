@@ -5,7 +5,10 @@ const add = function(a, b) {
 	
 };
 
-const subtract = function() {
+const subtract = function(a, b) {
+
+  let difference = a - b;
+  return difference;
 	
 };
 
