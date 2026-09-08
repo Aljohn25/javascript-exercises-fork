@@ -12,7 +12,10 @@ const subtract = function(a, b) {
 	
 };
 
-const sum = function() {
+const sum = function(arr) {
+
+  let totalSum = arr.reduce((num1, num2) => num1 + num2 , 0);
+  return totalSum;
 	
 };
 
